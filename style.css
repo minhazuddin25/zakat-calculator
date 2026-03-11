@@ -4,6 +4,9 @@
 body{
     font-family: Arial, sans-serif;
 }
+p{
+    text-align: center;
+}
 .zakat-container{
     max-width:800px;
     margin:auto;
