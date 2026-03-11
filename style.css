@@ -1,0 +1,65 @@
+ html{
+        scroll-behavior: smooth;
+    }
+body{
+    font-family: Arial, sans-serif;
+}
+.zakat-container{
+    max-width:800px;
+    margin:auto;
+    padding:30px;
+    background:#f4f7f6;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.zakat-container h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: #000E39;
+    text-align:center;
+    margin-bottom:25px;
+}
+.zakat-field{
+    margin-bottom:18px;
+}
+.zakat-field label{
+    font-weight:600;
+}
+.zakat-field input{
+    width:100%;
+    padding:10px;
+    margin-top:6px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    font-size:14px;
+}
+button{
+    width:100%;
+    padding:14px;
+    background:#0a7c5a;
+    color:white;
+    border:none;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+button:hover{
+    background:#075c43;
+}
+.result{
+    margin-top:25px;
+    padding:20px;
+    background:#e9fff6;
+    border-left:5px solid #0a7c5a;
+    border-radius:8px;
+    display:none;
+}
+.donate-btn{
+    background:#d4af37;
+    margin-top:15px;
+    display:none;
+}
+.donate-btn:hover{
+    background:#b7952b;
+}

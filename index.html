@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zakat Calculator</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<div class="zakat-container">
+<h2>Zakat Calculator (USD)</h2>
+
+<div class="zakat-field">
+<label>Cash in Hand ($)</label>
+<input type="number" id="cash" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Bank Balance ($)</label>
+<input type="number" id="bank" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Gold (grams)</label>
+<input type="number" id="goldGram" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Gold Price per Gram ($)</label>
+<input type="number" id="goldPrice" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Silver (grams)</label>
+<input type="number" id="silverGram" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Silver Price per Gram ($)</label>
+<input type="number" id="silverPrice" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Business Assets ($)</label>
+<input type="number" id="business" value="0">
+</div>
+
+<div class="zakat-field">
+<label>Liabilities / Debts ($)</label>
+<input type="number" id="liabilities" value="0">
+</div>
+
+<button onclick="calculateZakat()">Calculate Zakat</button>
+
+<div class="result" id="result"></div>
+
+<button id="donateBtn" class="donate-btn" onclick="donateNow()">Donate Now</button>
+
+</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
